@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hi {
+  border-bottom: 1px solid #9aa5b1;
+}
+
+.para-1-desc {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .item-container {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .h1-item {
+    margin-right: 7px;
+  }
+}
